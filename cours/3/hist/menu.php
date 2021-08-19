@@ -11,8 +11,8 @@
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TROISIEME</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Histoire</a>
-        <a class="dropdown-item" href="#">Géographie</a>
+        <a class="dropdown-item" href="01.laPremiereGuerreMondiale.php">chap.1 : La Première Guerre mondiale</a>
+        <a class="dropdown-item" href="02.lesEtatsTotalitaires.php">chap.2 : les Etats totalitaires</a>
       </div>
     </li>
     <li class="nav-item"><a class="nav-link " href="#">Méthodes</a></li>

@@ -16,7 +16,7 @@
       </header>
 
   <section class="container-fluid bienvenue">
-    <div class="container presentation">
+    <div class="container presentation" align ="center">
       <p>Bienvenue sur le site de monsieur Moty </p>
       <p>Ce site vous permet d'avoir accès aux ressources du cours d'histoire. <span class="avertissement">Il ne remplace en rien les cours</span> mais permet d'avoir accès a des synthèses, des méthodes, et quelques vidéos du net. </p>
       <p>Pour profiter de toutes les ressources vous aurez besoin d'un lecteur de fichier pdf que vous avez déjà sur vos tablettes</p>
@@ -28,10 +28,25 @@
     <div class="container connect">
       <p>S'identifier</p>
       <form class="connection" action="login.php" method="post">
-        <label for="nom">Identifiant : </label>
-        <input type="text" name="nom">
-        <label for="psw">Mot de passe : </label>
-        <input type="text" name="psw">
+        <table>
+          <tr>
+            <td>
+              <label for="nom">Identifiant </label>
+            </td>
+            <td>
+              <input type="text" name="nom">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="psw">Mot de passe </label>
+            </td>
+            <td>
+              <input type="text" name="psw">
+            </td>
+          </tr>
+        </table>
+        <br />
         <input type=submit>
       </form>
     </div>
@@ -43,14 +58,25 @@
       <div class="container demandeAcces">
         <p>Demander un accès</p>
         <form class="formulaireDeDemande" action="demandeAcces.php" method="post">
-          <label for="nom">Nom</label>
-          <input type="text" name="nom">
-          <label for="prenom">Prénom</label>
-          <input type="text" name="prenom">
-          <label for="classe">Classe</label>
-          <input type="text" name="classe">
-          <label for="email">Email</label>
-          <input type="email" name="email">
+          <table>
+            <tr>
+              <td>  <label for="nom">Nom</label></td>
+              <td><input type="text" name="nom"></td>
+            </tr>
+            <tr>
+              <td>  <label for="prenom">Prénom</label></td>
+              <td>  <input type="text" name="prenom"></td>
+            </tr>
+            <tr>
+              <td><label for="class">Classe</label></td>
+              <td><input type="text" name="classe"></td>
+            </tr>
+            <tr>
+              <td>  <label for="email">Email</label></td>
+              <td><input type="email" name="email"></td>
+            </tr>
+          </table>
+          <br />
           <input type="submit" name="submit" value="Envoyer">
         </form>
       </div>

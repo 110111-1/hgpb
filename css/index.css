@@ -25,7 +25,6 @@ a,a:hover{
   padding : 0;
 }
 
-/* Header*/
 .header{
    background-color: #152C40;
    height: 80px;
@@ -42,6 +41,7 @@ a,a:hover{
 .avertissement{
   color: red;
 }
+
 .connect{
   border: 2px black solid;
   padding: 1em 1em 2em 1em;

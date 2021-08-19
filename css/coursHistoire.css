@@ -27,36 +27,10 @@ padding : 0;
 }
 
 /* Header*/
-.header{
-   background-color: #152C40;
-   height: 80px;
-   line-height: 80px;
-}
-
-.logo{
-  height : 80px;
-  float: left;
-}
-.dropdown-menu {
-  background-color: #4586BF;
-}
-
-.menu{
-  float : right;
-}
-.menu a{
-  color : #ffffff;
-}
-
-.menu a:hover{
-  color: #F28D52;
-}
 
 .menu .banner{
   width: 100%;
   max-width: 100%;
-
-
 }
 .ban{
   width: 100%;
