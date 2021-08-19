@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*font-family: 'Poppins', sans-serif;*/
+
+/*
+bleu sombre  : #2B558C
+bleu noir  : #152C40
+bleu gris    : #6581A6
+bleu clair   : #4586BF
+orange       : #F28D52
+marron-rouge : #8C4A32
+*/
+body,html{
+  padding : 0;
+  margin : 0;
+  font-family: 'Popins', sans-serif;
+}
+a,a:hover{
+  text-decoration: none;
+}
+
+.container-fluid{
+  padding: 0;
+}
+.container{
+  padding : 0;
+}
+
+/* Header*/
+.header{
+   background-color: #152C40;
+   height: 80px;
+   line-height: 80px;
+}
+
+.logo{
+  height : 80px;
+  float: left;
+}
+.presentation{
+  margin-top: 3em;
+}
+.avertissement{
+  color: red;
+}
+.connect{
+  border: 2px black solid;
+  padding: 1em 1em 2em 1em;
+}
+
+.demandeAcces{
+  border: 2px black solid;
+  padding: 1em 1em 2em 1em;
+}
+/*footer*/
+.footer{
+   background-color: #152C40;
+   height: 20px;
+}

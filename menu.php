@@ -1,6 +1,6 @@
 <nav class=" menu">
   <ul class="nav">
-    <li class "nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
+    <li class "nav-item"><a class="nav-link" href="accueil.php">Accueil</a></li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SXIEME</a>
       <div class="dropdown-menu">
@@ -16,7 +16,7 @@
       </div>
     </li>
     <li class="nav-item"><a class="nav-link " href="#">Méthodes</a></li>
-    <li class="nav-item"><a class="nav-link " href="#">Se connecter</a></li>
+    <li class="nav-item"><a class="nav-link " href="index.php">Se connecter</a></li>
   </ul>
 </nav>
 
