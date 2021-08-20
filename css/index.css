@@ -37,11 +37,17 @@ a,a:hover{
 }
 .presentation{
   margin-top: 3em;
+  text-align: center;
+  font-size: 1.5em;
 }
 .avertissement{
   color: red;
 }
 
+.entete{
+  font-size: 2em;
+
+}
 .connect{
   border: 2px black solid;
   padding: 1em 1em 2em 1em;

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/coursHistoire.css">
+    <link rel="stylesheet" href="../../../css/menu.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');</style>
     <title>HGPB </title>
   </head>
@@ -17,9 +18,9 @@
     <section class="container-fluid banner">
         <div class="container ban">
           <img src="ressources/01/1ereGuerremondiale.jpg" alt="1ereGuerremondiale">
-        </div>
-        <div class="inner-banner">
-          <h1>Chapitre 1 : 1914-1918 : La Première Guerre mondiale</h1>
+          <div class="inner-banner">
+            <h1>Chapitre 1 : 1914-1918 : La Première Guerre mondiale</h1>
+          </div>
         </div>
     </section>
 
