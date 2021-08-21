@@ -28,7 +28,7 @@ if(isset($valider)){
 <body onload="document.fo.login.focus">
   <header>
     Authentification
-    <a href="inscription.php">S'iscrire</a>
+    <a href="inscription.php">S'inscrire</a>
   </header>
   <form class="form-login" name="fo" action="" method="post">
     <div class="label">Login</div>

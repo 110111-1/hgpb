@@ -1,3 +1,10 @@
+<?php
+  session_start();
+  if($_SESSION['autoriser']!='oui'){
+    header("location:../../../gestionConnexion/login.php");
+    exit();
+  }
+?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
