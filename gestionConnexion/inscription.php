@@ -33,27 +33,29 @@ if(isset($valider)){
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/gestionConnexion.css">
   <title>Inscription</title>
 </head>
 <body>
-  <header>
+  <header class="container-fluid">
     Inscription
     <a href="login.php">Déjà inscrit</a>
   </header>
-  <form class="form-inscription" action="" method="post">
-    <div class="label">Nom</div>
-    <input type="text" name="nom" value="<?php echo $nom?>" />
-    <div class="label">Prenom</div>
-    <input type="text" name="prenom" value="<?php echo $prenom?>" />
-    <div class="label">Login</div>
-    <input type="text" name="login" value="<?php echo $login?>" />
-    <div class="label">Mot de passe</div>
-    <input type="password" name="pass" value="<?php echo $pass?>" />
-    <div class="label">Confirmer votre mot de passe</div>
-    <input type="password" name="repass" value="<?php echo $repass?>" />
-    <input type="submit" name="valider" value="S'inscrire" />
-  </form>
+      <form class="form-inscription" action="" method="post">
+        <div class="container label">Nom</div>
+        <input type="text" name="nom" value="<?php echo $nom?>" />
+        <div class="label">Prenom</div>
+        <input type="text" name="prenom" value="<?php echo $prenom?>" />
+        <div class="label">Login</div>
+        <input type="text" name="login" value="<?php echo $login?>" />
+        <div class="label">Mot de passe</div>
+        <input type="password" name="pass" value="<?php echo $pass?>" />
+        <div class="label">Confirmer votre mot de passe</div>
+        <input type="password" name="repass" value="<?php echo $repass?>" />
+        <input type="submit" name="valider" value="S'inscrire" />
+      </form>
+
   <?php
   if(!empty($message)){?>
     <div id="message">

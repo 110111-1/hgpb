@@ -1,5 +1,9 @@
 <?php
   session_start();
+  if($_SESSION['autoriser']!='oui'){
+    header("location:login.php");
+    exit();
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,8 +15,11 @@
       Espace Privé
       <a href="deconnexion.php">Quitter la session</a>
     </header>
-    <h1>Bonjour
-      <span>NOM PRENOM</span>
+    <h1>
+      <?php
+        echo (date("H")<19)?("Bonjour"):("Bonsoir");
+      ?>
+      <span><?=$_SESSION['nomPrenom']?></span>
     </h1>
   </body>
 </html>
