@@ -13,7 +13,7 @@ if($_SESSION['autoriser']!='oui'){
   <link rel="stylesheet" href="../../../css/coursHistoire.css">
   <link rel="stylesheet" href="../../../css/menu.css">
   <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');</style>
-  <title>HGPB</title>
+  <title>HGPB </title>
 </head>
 <body>
   <header class="container-fluid header">
@@ -24,9 +24,9 @@ if($_SESSION['autoriser']!='oui'){
   </header>
   <section class="container-fluid banner">
     <div class="container ban">
-      <img src="ressources/02/ban.jpg" alt="etats totalitaires">
+      <img src="" alt="">
       <div class="inner-banner">
-        <h1>Chapitre 2 : Les Etats totalitaires</h1>
+        <h1>Chapitre  : </h1>
       </div>
     </div>
   </section>

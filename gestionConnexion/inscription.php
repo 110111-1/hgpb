@@ -33,17 +33,21 @@ if(isset($valider)){
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/gestionConnexion.css">
   <title>Inscription</title>
 </head>
 <body>
   <header class="container-fluid">
-    Inscription
-    <a href="login.php">Déjà inscrit</a>
+    <div class="container">
+      Inscription
+      <a href="login.php">Déjà inscrit</a>
+    </div>
   </header>
+  <section class="container-fluid">
+    <div class="container">
       <form class="form-inscription" action="" method="post">
-        <div class="container label">Nom</div>
+        <div class="label">Nom</div>
         <input type="text" name="nom" value="<?php echo $nom?>" />
         <div class="label">Prenom</div>
         <input type="text" name="prenom" value="<?php echo $prenom?>" />
@@ -55,6 +59,8 @@ if(isset($valider)){
         <input type="password" name="repass" value="<?php echo $repass?>" />
         <input type="submit" name="valider" value="S'inscrire" />
       </form>
+    </div>
+  </section>
 
   <?php
   if(!empty($message)){?>

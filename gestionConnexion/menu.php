@@ -1,6 +1,6 @@
 <nav class=" menu">
   <ul class="nav">
-    <li class "nav-item"><a class="nav-link" href="accueil.php">Accueil</a></li>
+    <li class "nav-item"><a class="nav-link" href="session.php">Accueil</a></li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SXIEME</a>
       <div class="dropdown-menu">
@@ -11,12 +11,13 @@
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TROISIEME</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="cours/3/hist/01.laPremiereGuerreMondiale.php">chap.1 : La Première Guerre mondiale</a>
-        <a class="dropdown-item" href="cours/3/hist/02.lesEtatsTotalitaires.php">Géographie</a>
+        <a class="dropdown-item" href="\cours\3\hist\01.laPremiereGuerreMondiale.php">chap.1 : La Première Guerre mondiale</a>
+        <a class="dropdown-item" href="\cours\3\hist\02.lesEtatsTotalitaires.php">chap.2 : les Etats totalitaires</a>
+        <a class="dropdown-item" href="\cours\3\hist\02.laSecondeGuerreMondiale.php">chap.3 : La Seconde Guerre mondiale</a>
       </div>
     </li>
     <li class="nav-item"><a class="nav-link " href="#">Méthodes</a></li>
-    <li class="nav-item"><a class="nav-link " href="index.php">Se connecter</a></li>
+    <li class="nav-item"><a class="nav-link " href="deconnexion.php">Se déconnecter</a></li>
   </ul>
 </nav>
 

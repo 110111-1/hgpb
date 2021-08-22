@@ -13,7 +13,9 @@ body,html{
   padding : 0;
   margin : 0;
   font-family: 'Popins', sans-serif;
+
 }
+
 a,a:hover{
   text-decoration: none;
 }
@@ -24,29 +26,9 @@ a,a:hover{
 .container{
   padding : 0;
 }
-
-.header{
-   background-color: #152C40;
-   height: 80px;
-   line-height: 80px;
+.hello{
+  background-color:#6581A6;
 }
-
-.logo{
-  height : 80px;
-  float: left;
-}
-.presentation{
-  margin-top: 3em;
-  text-align: center;
-  font-size: 1.5em;
-}
-.avertissement{
-  color: red;
-}
-
-
-/*footer*/
-.footer{
-   background-color: #152C40;
-   height: 20px;
+.hello .nav-link a{
+  color:black;
 }

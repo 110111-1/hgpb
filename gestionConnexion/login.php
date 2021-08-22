@@ -23,20 +23,28 @@ if(isset($valider)){
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/gestionConnexion.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/gestionConnexion.css">
 </head>
 <body onload="document.fo.login.focus">
-  <header>
-    Authentification
-    <a href="inscription.php">S'inscrire</a>
+  <header class="container-fluid">
+    <div class="container">
+      Identification
+      <a href="inscription.php">S'inscrire</a>
+    </div>
   </header>
-  <form class="form-login" name="fo" action="" method="post">
-    <div class="label">Login</div>
-    <input type="text" name="login" value="<?php echo $login?>">
-    <div class="label">Mot de passe</div>
-    <input type="password" name="pass">
-    <input type="submit" name="valider" value="S'authentifier">
-  </form>
+  <section class="container-fluid">
+    <div class="container">
+      <form class="form-login" name="fo" action="" method="post">
+        <div class="label">Login</div>
+        <input type="text" name="login" value="<?php echo $login?>">
+        <div class="label">Mot de passe</div>
+        <input type="password" name="pass">
+        <input type="submit" name="valider" value="S'authentifier">
+      </form>
+    </div>
+  </section>
+
   <?php
   if(!empty($message)) {
     ?>

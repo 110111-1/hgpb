@@ -24,7 +24,7 @@
     </header>
     <section class="container-fluid banner">
         <div class="container ban">
-          <img src="ressources/01/1ereGuerremondiale.jpg" alt="1ereGuerremondiale">
+          <img src="ressources/01/ban.jpg" alt="1ereGuerremondiale">
           <div class="inner-banner">
             <h1>Chapitre 1 : 1914-1918 : La Première Guerre mondiale</h1>
           </div>
@@ -93,7 +93,7 @@
       </div>
 </section>
     <footer class="container-fluid footer">
-      <p>Salut les copains</p>
+      <p></p>
     </footer>
   </body>
 </html>
