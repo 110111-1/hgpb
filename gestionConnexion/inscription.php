@@ -70,6 +70,5 @@ if(isset($valider)){
     <?php
   }
   ?>
-  <footer class="container-fluid footer"></footer>
 </body>
 </html>
