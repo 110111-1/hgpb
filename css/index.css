@@ -9,6 +9,13 @@ bleu clair   : #4586BF
 orange       : #F28D52
 marron-rouge : #8C4A32
 */
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+  position: relative;
+}
 body,html{
   padding : 0;
   margin : 0;
@@ -44,9 +51,12 @@ a,a:hover{
   color: red;
 }
 
-
 /*footer*/
 .footer{
    background-color: #152C40;
    height: 20px;
+   position: absolute;
+   bottom:0;
+   left: 0;
+   right:0;
 }

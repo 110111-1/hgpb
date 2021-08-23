@@ -11,10 +11,16 @@
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TROISIEME</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="01.laPremiereGuerreMondiale.php">chap.1 : La Première Guerre mondiale</a>
-        <a class="dropdown-item" href="02.lesEtatsTotalitaires.php">chap.2 : les Etats totalitaires</a>
-        <a class="dropdown-item" href="03.laSecondeGuerreMondiale.php">chap.3 : La Seconde Guerre mondiale</a>
-
+        <a class="dropdown-item" href="\cours\3\hist\01.laPremiereGuerreMondiale.php">chap.1 : La Première Guerre mondiale</a>
+        <a class="dropdown-item" href="\cours\3\hist\02.lesEtatsTotalitaires.php">chap.2 : les Etats totalitaires</a>
+        <a class="dropdown-item" href="\cours\3\hist\03.laSecondeGuerreMondiale.php">chap.3 : La Seconde Guerre mondiale</a>
+        <a class="dropdown-item" href="\cours\3\hist\04.laFranceDefaiteEtOccupee.php">chap.4 : La France défaite et occupée</a>
+        <a class="dropdown-item" href="\cours\3\hist\05.leMondeBipolaire.php">chap.5 : Le monde Bipolaire</a>
+        <a class="dropdown-item" href="\cours\3\hist\06.independanceEtNouveauxEtats.php">chap.6 : Indépendance et nouveaux Etats</a>
+        <a class="dropdown-item" href="\cours\3\hist\07.lEurope.php">chap.7 : L'Europe</a>
+        <a class="dropdown-item" href="\cours\3\hist\08.leMondeApres1989.php">chap.8 : Le monde après 1989</a>
+        <a class="dropdown-item" href="\cours\3\hist\09.refondreLaRepublique.php">chap.9 : Refondre la République</a>
+        <a class="dropdown-item" href="\cours\3\hist\10.laVRepublique.php">chap.10: La Vème République</a>
       </div>
     </li>
     <li class="nav-item"><a class="nav-link " href="#">Méthodes</a></li>
