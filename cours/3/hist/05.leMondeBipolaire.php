@@ -13,7 +13,7 @@ if($_SESSION['autoriser']!='oui'){
   <link rel="stylesheet" href="../../../css/coursHistoire.css">
   <link rel="stylesheet" href="../../../css/menu.css">
   <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');</style>
-  <title>HGPB </title>
+  <title>HGPB</title>
 </head>
 <body>
   <header class="container-fluid header">
@@ -24,9 +24,9 @@ if($_SESSION['autoriser']!='oui'){
   </header>
   <section class="container-fluid banner">
     <div class="container ban">
-      <img src="" alt="">
+      <img src="ressources/05/ban.jpg" alt="la guerre froide">
       <div class="inner-banner">
-        <h1>Chapitre 6 : Le monde Bipolaire</h1>
+        <h1>Chapitre 5 : Le monde Bipolaire</h1>
       </div>
     </div>
   </section>
@@ -38,19 +38,19 @@ if($_SESSION['autoriser']!='oui'){
       <div class="row">
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Chrono</h2>
-          <a href="ressources/0/chrono.pdf">
+          <a href="ressources/05/chrono.pdf">
             <img src="../../../img/timeline.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Définitions</h2>
-          <a href="ressources/0/Définitions.pdf">
+          <a href="ressources/05/Définitions.pdf">
             <img src="../../../img/definitions.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Cours</h2>
-          <a href="ressources/0/Cours.pdf">
+          <a href="ressources/05/Cours.pdf">
             <img src="../../../img/cours.png" alt="" class="logo_ressources">
           </a>
         </div>
@@ -62,7 +62,7 @@ if($_SESSION['autoriser']!='oui'){
   <section class="container-fluid vocab">
     <div class="container">
       <h2>Vocaburaire</h2>
-      <iframe ></iframe>
+      <iframe src="https://quizlet.com/497813586/match/embed?i=2qug9f&x=1jj1" height="500" width="100%" style="border:0"></iframe>
       <hr class="separator">
     </div>
 
@@ -74,22 +74,22 @@ if($_SESSION['autoriser']!='oui'){
           <h2>Les vidéos du net</h2>
           <hr class="separator">
           <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
-            <h2>Video 1</h2>
-            <iframe></iframe>
+            <h2>La guerre froide</h2>
+            <iframe src="https://www.youtube.com/embed/MhfraAqwZD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
-            <h2>Video 2</h2>
-            <iframe></iframe>
-
+            <h2>La crise de Berlin</h2>
+            <iframe src="https://www.youtube.com/embed/d3Q098CXdmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
             <h2>Video 3</h2>
-            <iframe></iframe>
+            <iframe src="https://www.youtube.com/embed/SZdncx-ghxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <br><br>
   <footer class="container-fluid footer">
     <p></p>
   </footer>

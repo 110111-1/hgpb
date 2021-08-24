@@ -2,13 +2,6 @@
   <ul class="nav">
     <li class "nav-item"><a class="nav-link" href="session.php">Accueil</a></li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SXIEME</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Histoire</a>
-        <a class="dropdown-item" href="#">Géographie</a>
-      </div>
-    </li>
-    <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TROISIEME</a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="\cours\3\hist\01.laPremiereGuerreMondiale.php">chap.1 : La Première Guerre mondiale</a>

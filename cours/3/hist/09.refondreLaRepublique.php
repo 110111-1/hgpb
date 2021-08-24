@@ -24,9 +24,9 @@ if($_SESSION['autoriser']!='oui'){
   </header>
   <section class="container-fluid banner">
     <div class="container ban">
-      <img src="" alt="">
+      <img src="ressources/09/ban.jpg" alt="">
       <div class="inner-banner">
-        <h1>Chapitre 10 : Refondre la République</h1>
+        <h1>Chapitre 9 : Refondre la République</h1>
       </div>
     </div>
   </section>
@@ -38,19 +38,19 @@ if($_SESSION['autoriser']!='oui'){
       <div class="row">
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Chrono</h2>
-          <a href="ressources/0/chrono.pdf">
+          <a href="ressources/09/chrono.pdf">
             <img src="../../../img/timeline.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Définitions</h2>
-          <a href="ressources/0/Définitions.pdf">
+          <a href="ressources/09/Définitions.pdf">
             <img src="../../../img/definitions.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Cours</h2>
-          <a href="ressources/0/Cours.pdf">
+          <a href="ressources/09/Cours.pdf">
             <img src="../../../img/cours.png" alt="" class="logo_ressources">
           </a>
         </div>
@@ -58,7 +58,7 @@ if($_SESSION['autoriser']!='oui'){
     </div>
     <hr class="separator">
   </section>
-
+<!--
   <section class="container-fluid vocab">
     <div class="container">
       <h2>Vocaburaire</h2>
@@ -90,6 +90,9 @@ if($_SESSION['autoriser']!='oui'){
       </div>
     </div>
   </section>
+-->
+<br>
+<br>
   <footer class="container-fluid footer">
     <p></p>
   </footer>

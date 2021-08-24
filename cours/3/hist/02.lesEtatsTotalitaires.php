@@ -38,19 +38,19 @@ if($_SESSION['autoriser']!='oui'){
       <div class="row">
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Chrono</h2>
-          <a href="ressources/0/chrono.pdf">
+          <a href="ressources/02/chrono.pdf">
             <img src="../../../img/timeline.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Définitions</h2>
-          <a href="ressources/0/Définitions.pdf">
+          <a href="ressources/02/Définitions.pdf">
             <img src="../../../img/definitions.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Cours</h2>
-          <a href="ressources/0/Cours.pdf">
+          <a href="ressources/02/Cours.pdf">
             <img src="../../../img/cours.png" alt="" class="logo_ressources">
           </a>
         </div>
@@ -58,14 +58,14 @@ if($_SESSION['autoriser']!='oui'){
     </div>
     <hr class="separator">
   </section>
-
+<!--
   <section class="container-fluid vocab">
     <div class="container">
       <h2>Vocaburaire</h2>
       <iframe ></iframe>
       <hr class="separator">
     </div>
-
+-->
   </section>
   <section>
     <div class="container-fluid videosNet">
@@ -75,21 +75,22 @@ if($_SESSION['autoriser']!='oui'){
           <hr class="separator">
           <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
             <h2>Video 1</h2>
-            <iframe></iframe>
+            <iframe src="https://www.youtube.com/embed/q4CJRflxg2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
             <h2>Video 2</h2>
-            <iframe></iframe>
-
+          <iframe src="https://www.youtube.com/embed/pS89ulQ1YiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
             <h2>Video 3</h2>
-            <iframe></iframe>
+            <iframe src="https://www.youtube.com/embed/SABFePvbD20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <br>
+  <br>
   <footer class="container-fluid footer">
     <p></p>
   </footer>

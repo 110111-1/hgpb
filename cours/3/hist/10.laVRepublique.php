@@ -24,9 +24,9 @@ if($_SESSION['autoriser']!='oui'){
   </header>
   <section class="container-fluid banner">
     <div class="container ban">
-      <img src="" alt="">
+      <img src="ressources/10/ban.jpg" alt="5eme repulique">
       <div class="inner-banner">
-        <h1>Chapitre 11 : La Cinquième République</h1>
+        <h1>Chapitre 10 : La Cinquième République</h1>
       </div>
     </div>
   </section>
@@ -38,19 +38,19 @@ if($_SESSION['autoriser']!='oui'){
       <div class="row">
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Chrono</h2>
-          <a href="ressources/0/chrono.pdf">
+          <a href="ressources/10/chrono.pdf">
             <img src="../../../img/timeline.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Définitions</h2>
-          <a href="ressources/0/Définitions.pdf">
+          <a href="ressources/10/Définitions.pdf">
             <img src="../../../img/definitions.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Cours</h2>
-          <a href="ressources/0/Cours.pdf">
+          <a href="ressources/10/Cours.pdf">
             <img src="../../../img/cours.png" alt="" class="logo_ressources">
           </a>
         </div>
@@ -62,7 +62,7 @@ if($_SESSION['autoriser']!='oui'){
   <section class="container-fluid vocab">
     <div class="container">
       <h2>Vocaburaire</h2>
-      <iframe ></iframe>
+      <iframe width="266" height="266" src="https://www.youtube.com/embed/ySymHxWpnsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <hr class="separator">
     </div>
 
@@ -75,16 +75,15 @@ if($_SESSION['autoriser']!='oui'){
           <hr class="separator">
           <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
             <h2>Video 1</h2>
-            <iframe></iframe>
+            <iframe width="266" height="266" src="https://www.youtube.com/embed/qX9MYS74AG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
             <h2>Video 2</h2>
-            <iframe></iframe>
-
+            <iframe width="266" height="266" src="https://www.youtube.com/embed/olNhJhDk-qY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
             <h2>Video 3</h2>
-            <iframe></iframe>
+            <iframe width="266" height="266" src="https://www.youtube.com/embed/KY0Ld3XDGBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>

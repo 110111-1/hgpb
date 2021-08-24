@@ -90,6 +90,8 @@ if($_SESSION['autoriser']!='oui'){
       </div>
     </div>
   </section>
+  <br>
+  <br>
   <footer class="container-fluid footer">
     <p></p>
   </footer>

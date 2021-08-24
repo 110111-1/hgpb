@@ -24,9 +24,9 @@ if($_SESSION['autoriser']!='oui'){
   </header>
   <section class="container-fluid banner">
     <div class="container ban">
-      <img src="" alt="">
+      <img src="ressources/08/ban.jpg" alt="monde apres 1989">
       <div class="inner-banner">
-        <h1>Chapitre 9 : Le monde après 1989</h1>
+        <h1>Chapitre 8 : Le monde après 1989</h1>
       </div>
     </div>
   </section>
@@ -38,19 +38,19 @@ if($_SESSION['autoriser']!='oui'){
       <div class="row">
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Chrono</h2>
-          <a href="ressources/0/chrono.pdf">
+          <a href="ressources/08/chrono.pdf">
             <img src="../../../img/timeline.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Définitions</h2>
-          <a href="ressources/0/Définitions.pdf">
+          <a href="ressources/08/Définitions.pdf">
             <img src="../../../img/definitions.png" alt="" class="logo_ressources">
           </a>
         </div>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-ressources">
           <h2>Cours</h2>
-          <a href="ressources/0/Cours.pdf">
+          <a href="ressources/08/Cours.pdf">
             <img src="../../../img/cours.png" alt="" class="logo_ressources">
           </a>
         </div>
@@ -58,40 +58,40 @@ if($_SESSION['autoriser']!='oui'){
     </div>
     <hr class="separator">
   </section>
-
+  <!--
   <section class="container-fluid vocab">
+  <div class="container">
+  <h2>Vocaburaire</h2>
+  <iframe ></iframe>
+  <hr class="separator">
+</div>
+</section>
+-->
+<section>
+  <div class="container-fluid videosNet">
     <div class="container">
-      <h2>Vocaburaire</h2>
-      <iframe ></iframe>
-      <hr class="separator">
-    </div>
-
-  </section>
-  <section>
-    <div class="container-fluid videosNet">
-      <div class="container">
-        <div class="row">
-          <h2>Les vidéos du net</h2>
-          <hr class="separator">
-          <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
-            <h2>Video 1</h2>
-            <iframe></iframe>
-          </div>
-          <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
-            <h2>Video 2</h2>
-            <iframe></iframe>
-
-          </div>
-          <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
-            <h2>Video 3</h2>
-            <iframe></iframe>
-          </div>
+      <div class="row">
+        <h2>Les vidéos du net</h2>
+        <hr class="separator">
+        <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
+          <h2>Video 1</h2>
+          <iframe src="https://www.youtube.com/embed/k6s-l1FX768" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
+          <h2>Video 2</h2>
+          <iframe src="https://www.youtube.com/embed/1VfA9bKhwu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-video">
+          <h2>Video 3</h2>
+          <iframe src="https://www.youtube.com/embed/AmKAJPGebd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
-  </section>
-  <footer class="container-fluid footer">
-    <p></p>
-  </footer>
+  </div>
+</section>
+<br><br>
+<footer class="container-fluid footer">
+  <p></p>
+</footer>
 </body>
 </html>
