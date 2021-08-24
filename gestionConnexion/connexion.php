@@ -1,4 +1,5 @@
 <?php
+
 try{
   // On se connecte à MySQL
   $pdo = new PDO('mysql:host=localhost;dbname=hgpb;charset=utf8', 'root', '');
