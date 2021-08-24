@@ -1,6 +1,6 @@
 <nav class=" menu">
   <ul class="nav">
-    <li class "nav-item"><a class="nav-link" href="session.php">Accueil</a></li>
+    <li class "nav-item"><a class="nav-link" href="../../../gestionConnexion/session.php">Accueil</a></li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TROISIEME</a>
       <div class="dropdown-menu">
@@ -15,8 +15,8 @@
         <a class="dropdown-item" href="\cours\3\hist\09.refondreLaRepublique.php">chap.9 : Refondre la République</a>
         <a class="dropdown-item" href="\cours\3\hist\10.laVRepublique.php">chap.10: La Vème République</a>
     </li>
-    <li class="nav-item"><a class="nav-link " href="#">Méthodes</a></li>
-    <li class="nav-item"><a class="nav-link " href="deconnexion.php">Se déconnecter</a></li>
+    <li class="nav-item"><a class="nav-link " href="\cours\methodes\methodes.php">Méthodes</a></li>
+    <li class="nav-item"><a class="nav-link " href="../../../gestionConnexion/deconnexion.php">Se déconnecter</a></li>
   </ul>
 </nav>
 

@@ -52,7 +52,5 @@ if(isset($valider)){
       <?php echo $message ?>
     </div>
   <?php }?>
-  <footer class="container-fluid footer">
-  </footer>
 </body>
 </html>

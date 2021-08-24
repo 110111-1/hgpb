@@ -19,7 +19,7 @@ if($_SESSION['autoriser']!='oui'){
   <header class="container-fluid header">
     <div class="container">
       <img src="../../../img/logo_HGPB.png" class="logo"alt="logo_HGPB"/>
-      <?php include("menu.php");?>
+    <?php include("../../../gestionConnexion/menu.php");?>
     </div>
   </header>
   <section class="container-fluid banner">
