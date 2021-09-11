@@ -12,6 +12,10 @@
   <header class="container-fluid header">
     <div class="container">
       <img src="img/logo_HGPB.png" class="logo"alt="logo_HGPB"/>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link " href="\gestionConnexion\espace_admin\login_admin.php">connexion
+             administrateur</a></li>
+        </ul>
     </div>
   </header>
   <section class="container-fluid bienvenue">

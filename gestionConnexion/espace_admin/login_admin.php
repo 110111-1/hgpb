@@ -1,22 +1,22 @@
 <?php
 session_start();
-@$login=$_POST['login'];
-@$pass=$_POST['pass'];
-@$valider=$_POST['valider'];
+@$login_admin=$_POST['login_admin'];
+@$pass_admin=$_POST['pass_admin'];
+@$valider_admin=$_POST['valider_admin'];
 $message='';
-if(isset($valider)){
-  include("connexion.php");
-  $res=$pdo->prepare("SELECT * FROM inscrits WHERE login=? AND pass=? LIMIT 1");
+if(isset($valider_admin)){
+  include("connexion_admin.php");
+  $res=$pdo->prepare("SELECT * FROM administration WHERE login_admin=? AND pass_admin=? LIMIT 1");
   $res->setFetchMode(PDO::FETCH_ASSOC);
-  $res->execute(array($login,(md5($pass))));
+  $res->execute(array($login_admin,$pass_admin));
   $tab=$res->fetchAll();
   if(count($tab)==0){
     $message="<li>Mauvais Identifiant ou mot de passe</li>";
   }
   else{
-    $_SESSION['autoriser']="oui";
-    $_SESSION['nomPrenom']=strtoupper($tab[0]['nom'].' '.$tab[0]['prenom']);
-    header("location:session.php");
+    $_SESSION['autoriser_admin']="oui";
+    $_SESSION['nomPrenom_admin']=strtoupper($tab[0]['nom_admin'].' '.$tab[0]['prenom_admin']);
+    header("location:session_admin.php");
   }
 }
 ?>
@@ -29,22 +29,21 @@ if(isset($valider)){
 <body onload="document.fo.login.focus">
   <header class="container-fluid">
     <div class="container">
-      Identification
-      <a href="inscription.php">S'inscrire</a>
+      Espace Administration -
+      <a href="\index.php">retour au site</a>
     </div>
   </header>
   <section class="container-fluid">
     <div class="container">
       <form class="form-login" name="fo" action="" method="post">
         <div class="label">Login</div>
-        <input type="text" name="login" value="<?php echo $login?>">
+        <input type="text" name="login_admin" value="<?php echo $login_admin?>">
         <div class="label">Mot de passe</div>
-        <input type="password" name="pass">
-        <input type="submit" name="valider" value="S'authentifier">
+        <input type="password" name="pass_admin">
+        <input type="submit" name="valider_admin" value="S'authentifier">
       </form>
     </div>
   </section>
-
   <?php
   if(!empty($message)) {
     ?>
