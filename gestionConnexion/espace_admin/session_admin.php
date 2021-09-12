@@ -4,8 +4,8 @@
     header("location:\login.php");
     exit();
   }
-  
 ?>
+<?php include("connexion_admin.php"); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -26,8 +26,31 @@
     </header>
     <section class="container-fluid bienvenue">
       <div class="container presentation">
-        <h1>Page accueil ADMINISTRATION</h1>
+        <h1>Page ADMINISTRATION</h1>
+        <h1>Liste des utilisateurs</h1>
+       <table>
+         <thead>
+           <tr>
+             <th>ID</th>
+             <th>Name</th>
+           </tr>
+         </thead>
+         <tbody>
+           <?php while($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+           <tr>
+             <td><?php echo htmlspecialchars($row['nom']); ?></td>
+             <td><?php echo htmlspecialchars($row['prenom']); ?></td>
+             <td><?php echo htmlspecialchars($row['date']); ?></td>
+           </tr>
+           <?php endwhile; ?>
+         </tbody>
+       </table>
       </div>
+    </section>
+    <section class=container-fluid>
+      <h1>Actions</h1>
+      <button type="btn btn-warning" name="button">
+        <a href="suppression.php">Supprimer un utilisateur</button>
     </section>
 
     <footer class="container-fluid footer">

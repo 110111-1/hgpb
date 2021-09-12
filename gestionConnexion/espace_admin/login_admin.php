@@ -4,6 +4,7 @@ session_start();
 @$pass_admin=$_POST['pass_admin'];
 @$valider_admin=$_POST['valider_admin'];
 $message='';
+
 if(isset($valider_admin)){
   include("connexion_admin.php");
   $res=$pdo->prepare("SELECT * FROM administration WHERE login_admin=? AND pass_admin=? LIMIT 1");
@@ -15,7 +16,7 @@ if(isset($valider_admin)){
   }
   else{
     $_SESSION['autoriser_admin']="oui";
-    $_SESSION['nomPrenom_admin']=strtoupper($tab[0]['nom_admin'].' '.$tab[0]['prenom_admin']);
+    $_SESSION['autoriser']="oui";
     header("location:session_admin.php");
   }
 }
